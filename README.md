@@ -15,8 +15,11 @@ This is a **Java** program that simulates a **Pokémon Tamagotchi**, allowing us
 
 ## 📂 Project Structure
 📦 tamagochi
+
 ┣ 📜 Main.java       // Main class that runs the game loop
+
 ┣ 📜 Tamagochi.java  // Class modeling the Tamagotchi Pokémon
+
 ┗ 📜 README.md       // Project documentation
 
 
