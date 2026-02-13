@@ -1,35 +1,29 @@
-Tamagotchi Pokémon
-This is a Java program that simulates a Pokémon Tamagotchi, allowing users to interact with their Pokémon through a menu of options.
+# Tamagotchi Pokémon
 
-🛠 Features
-Naming: Users can give their Pokémon a custom name.
+This is a **Java** program that simulates a **Pokémon Tamagotchi**, allowing users to interact with their Pokémon through a menu of options.
 
-Multiple Actions:
+## 🛠 Features
+- **Naming**: Users can give their Pokémon a custom name.
+- **Multiple Actions**:
+  - **Train**: Increases happiness but consumes energy.
+  - **Eat**: Recovers energy.
+  - **Rest**: Fully restores energy.
+  - **Play**: Increases happiness.
+  - **Take Damage**: Reduces the Pokémon's HP (Health Points).
+- **Real-time Updates**: The Pokémon's status is updated and displayed after every turn.
+- **Game Over**: The game ends if the Pokémon's **HP reaches 0**.
 
-Train: Increases happiness but consumes energy.
-
-Eat: Recovers energy.
-
-Rest: Fully restores energy.
-
-Play: Increases happiness.
-
-Take Damage: Reduces the Pokémon's HP (Health Points).
-
-Real-time Updates: The Pokémon's status is updated and displayed after every turn.
-
-Game Over: The game ends if the Pokémon's HP reaches 0.
-
-📂 Project Structure
+## 📂 Project Structure
 📦 tamagochi
- ┣ 📜 Main.java       // Main class that runs the game loop
- ┣ 📜 Tamagochi.java  // Class modeling the Tamagotchi Pokémon
- ┗ 📜 README.md       // Project documentation
-🚀 Installation and Execution
-Clone this repository to your local machine:
+┣ 📜 Main.java       // Main class that runs the game loop
+┣ 📜 Tamagochi.java  // Class modeling the Tamagotchi Pokémon
+┗ 📜 README.md       // Project documentation
 
-Bash
-git clone https://github.com/your-username/tamagochi-pokemon.git
+
+## 🚀 Installation and Execution
+1. **Clone this repository** to your local machine:
+   ```sh
+   git clone [https://github.com/your-username/tamagochi-pokemon.git](https://github.com/your-username/tamagochi-pokemon.git)
 Compile the code via terminal:
 
 Bash
