@@ -1,53 +1,61 @@
-# Tamagochi Pokémon
+Tamagotchi Pokémon
+This is a Java program that simulates a Pokémon Tamagotchi, allowing users to interact with their Pokémon through a menu of options.
 
-Este es un programa en **Java** que simula un **Tamagochi Pokémon**, permitiendo al usuario interactuar con su Pokémon a través de un menú de opciones.
+🛠 Features
+Naming: Users can give their Pokémon a custom name.
 
-## 🛠 Características
-- El usuario puede **nombrar** a su Pokémon.
-- Se pueden realizar varias acciones:
-  - **Entrenar**: Aumenta la felicidad pero reduce la energía.
-  - **Comer**: Recupera energía.
-  - **Descansar**: Recupera toda la energía.
-  - **Jugar**: Aumenta la felicidad.
-  - **Recibir daño**: Reduce la vida del Pokémon.
-- El estado del Pokémon se actualiza y se muestra en cada turno.
-- Si la **vida llega a 0**, el juego termina.
+Multiple Actions:
 
-## 📂 Estructura del Proyecto
-```
+Train: Increases happiness but consumes energy.
+
+Eat: Recovers energy.
+
+Rest: Fully restores energy.
+
+Play: Increases happiness.
+
+Take Damage: Reduces the Pokémon's HP (Health Points).
+
+Real-time Updates: The Pokémon's status is updated and displayed after every turn.
+
+Game Over: The game ends if the Pokémon's HP reaches 0.
+
+📂 Project Structure
 📦 tamagochi
- ┣ 📜 Main.java       // Clase principal que ejecuta el juego
- ┣ 📜 Tamagochi.java  // Clase que modela al Pokémon Tamagochi
- ┗ 📜 README.md       // Documentación del proyecto
-```
+ ┣ 📜 Main.java       // Main class that runs the game loop
+ ┣ 📜 Tamagochi.java  // Class modeling the Tamagotchi Pokémon
+ ┗ 📜 README.md       // Project documentation
+🚀 Installation and Execution
+Clone this repository to your local machine:
 
-## 🚀 Instalación y Ejecución
-1. **Clona este repositorio** en tu máquina local:
-   ```sh
-   git clone https://github.com/tu-usuario/tamagochi-pokemon.git
-   ```
-2. **Compila el código** en la terminal:
-   ```sh
-   javac tamagochi/*.java
-   ```
-3. **Ejecuta el juego**:
-   ```sh
-   java tamagochi.Main
-   ```
+Bash
+git clone https://github.com/your-username/tamagochi-pokemon.git
+Compile the code via terminal:
 
-## 🎮 Cómo Jugar
-1. Introduce el nombre de tu Pokémon.
-2. Selecciona una acción del menú ingresando el número correspondiente.
-3. Administra la energía, felicidad y vida de tu Pokémon.
-4. El juego termina si decides salir o si la vida del Pokémon llega a 0.
+Bash
+javac tamagochi/*.java
+Run the game:
 
-## 📌 Mejoras Futuras
-- Implementar **niveles de experiencia** y evolución.
-- Agregar más tipos de interacciones (como batallas entre Pokémon).
-- Guardar el estado del Pokémon para continuar en futuras partidas.
+Bash
+java tamagochi.Main
+🎮 How to Play
+Enter your Pokémon's name when prompted.
 
-## 🤝 Contribución
-Si deseas mejorar este proyecto, ¡las contribuciones son bienvenidas! Haz un **fork**, crea una nueva rama y envía un **pull request**. 😊
+Select an action from the menu by entering the corresponding number.
 
-## 📜 Licencia
-Este proyecto se distribuye bajo la licencia **MIT**.
+Manage your Pokémon's energy, happiness, and health.
+
+The game ends if you choose to exit or if your Pokémon's health reaches zero.
+
+📌 Future Improvements
+Implement Experience Points (XP) and evolution systems.
+
+Add more interaction types (such as Pokémon battles).
+
+Implement a Save System to persist the Pokémon's state between sessions.
+
+🤝 Contributing
+Contributions are welcome! If you'd like to improve this project, please fork the repository, create a new branch, and submit a pull request. 😊
+
+📜 License
+This project is licensed under the MIT License.
