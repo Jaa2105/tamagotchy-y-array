@@ -44,11 +44,11 @@ java tamagochi.Main
 4.The game ends if you choose to exit or if your Pokémon's health reaches zero.
 
 ## 📌 Future Improvements
--Implement Experience Points (XP) and evolution systems.
+- Implement Experience Points (XP) and evolution systems.
 
--Add more interaction types (such as Pokémon battles).
+- Add more interaction types (such as Pokémon battles).
 
--Implement a Save System to persist the Pokémon's state between sessions.
+- Implement a Save System to persist the Pokémon's state between sessions.
 
 ## 🤝 Contributing
 Contributions are welcome! If you'd like to improve this project, please fork the repository, create a new branch, and submit a pull request. 😊
