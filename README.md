@@ -35,13 +35,13 @@ Run the game:
 java tamagochi.Main
 
 ## 🎮 How to Play
-1.Enter your Pokémon's name when prompted.
+1. Enter your Pokémon's name when prompted.
 
-2.Select an action from the menu by entering the corresponding number.
+2. Select an action from the menu by entering the corresponding number.
 
-3.Manage your Pokémon's energy, happiness, and health.
+3. Manage your Pokémon's energy, happiness, and health.
 
-4.The game ends if you choose to exit or if your Pokémon's health reaches zero.
+4. The game ends if you choose to exit or if your Pokémon's health reaches zero.
 
 ## 📌 Future Improvements
 - Implement Experience Points (XP) and evolution systems.
